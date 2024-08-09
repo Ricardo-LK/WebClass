@@ -1,0 +1,36 @@
+.input
+{
+    display: block;
+    width: 280px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin-bottom: 3px;
+}
+
+.input:focus
+{
+    border: 1px solid #ff0000;
+}
+
+.input:focus::placeholder
+{
+    color: #ff0000;
+}
+
+.button
+{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #088a68;
+    color: #FFF;
+}
+
+.button:active
+{
+    background-color: #04B486;
+}
